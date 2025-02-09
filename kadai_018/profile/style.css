@@ -1,0 +1,119 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #383e45;
+  font-size: 0.9rem;
+  padding: 0;
+  margin: 0;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.wrapper {
+  max-width: 960px;
+  padding: 0 4%;
+  text-align: center;
+  margin: 0 auto 100px;
+}
+
+.site-title {
+  width: 120px;
+  line-height: 1px;
+  padding: 10px 0;
+  margin: 0;
+}
+
+header img {
+  max-width: 120px;
+  border-style: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  padding: 10px 0;
+  margin: 0;
+}
+
+ul li a {
+  text-decoration: none;
+  margin-left: 30px;
+  color: black;
+}
+
+.site-title a {
+  display: block;
+}
+
+.jitennsya-1 {
+  width: 100%;
+  width: 1897px;
+  height: 600px;
+  object-fit: cover;
+  margin-bottom: 80px;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 0 0 60px;
+  display: inline-block;
+  border-bottom: solid 1px black;
+}
+
+.content img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-right: 30px;
+}
+
+#about .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  display: block;
+  text-align: left;
+  
+}
+
+.content-title {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#bicycle ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#bicycle img {
+  width: 95%;
+}
+
+.footer-1 {
+  text-align: center;
+  font-size: 0.5rem;
+}
