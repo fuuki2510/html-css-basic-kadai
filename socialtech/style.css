@@ -40,6 +40,11 @@ header {
   text-decoration: underline;
 }
 
+#nav-sp,
+#menu-sp {
+    display: none;
+  }
+
 #main-visual {
   position: relative;
   height: 400px;
@@ -491,6 +496,7 @@ footer {
     text-decoration: underline;
   }
 
+
   #nav-sp .menu {
     text-decoration: none;
     margin: 0 20px 0 20px;
@@ -510,4 +516,56 @@ footer {
   #sns > a {
     margin-right: 30px;
   }
+
+  #main-visual {
+    position: relative;
+    height: 470px;
+  }
+
+  #main-visual > div {
+    text-align: center;
+    height: 280px;
+  }
+
+  #main-visual h1 {
+    font-size: 28px;
+    margin: 90px 0 0 0;
+  }
+
+  #main-visual > div > p {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  #main-visual > img {
+    width: 100%;
+    border-radius: 476px 0 0 0;
+    top: auto;
+    bottom: 0;
+  } 
+
+  h2 {
+    margin: 15px 0 15px 0;
+  }
+
+  h3 {
+    font-size: 24px;
+    margin: 10px 0 0 0;
+  }
+
+  #mission {
+    margin: 20px 0 20px 0;
+    padding: 0 20px 0 20px;
+  }
+
+  #mission-flex {
+    flex-direction: column;
+  }
+
+  #mission-flex > div {
+    width: 100%;
+    margin: 0;
+  }
 }
+
+
